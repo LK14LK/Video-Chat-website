@@ -9,18 +9,23 @@
    
 }
 .navbar{
-    height: 80px;
-    width: auto;    
+    height: 5rem;
+    width: 100%;    
     display:flex;
-    margin-top: 15px;
+    /* margin-top: 15px; */
+    position:fixed;
+    top: 0;
+    overflow: hidden;
+    background-color: #C9B0D1;
+    
 }
 .navbar .logo{
-    height: 70px;
+    height: 4.3rem;
     margin:10px 0px 0px 40px ;
-    width:70px ;
+    width:4.3rem ;
     color: whitesmoke;
     background-color: #5d0b79;
-    border-radius: 40px;
+    border-radius: 2.5rem;
         
 }
 .logo h1{
@@ -28,21 +33,20 @@
     margin:10px 10px 10px 0px;
     font-family: 'Rubik Moonrocks', cursive;
     font-style: italic;
-    font-size: 50px;
+    font-size: 3.1rem;
 }
 .navbar ul{
     list-style-type:none;
     text-align: right;   
     overflow: hidden;
-    margin-right: 60px;
-    font-size: 25px;
+    margin-right: 3.7rem;
+    font-size: 1.56rem;
     
 }
 .navbar ul li{
     display: inline-block;
-    padding: 15px;
-    margin-right: 20px;
-
+    padding: 0.9rem;
+    margin-right: 1.25rem;
 }
 .nav{
     display: flex;
@@ -52,18 +56,19 @@
 
 .liststy{
     background-color: #5d0b79;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     color: whitesmoke;
+    height: 1.56rem;
 }
 a{
     color: black;
-    box-shadow: inset 0 0 0 0  #5d0b79;
+    box-shadow: inset 0 0 0 0  #545154;
     margin: 0 -.25rem;
     padding: 0 .25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 a:hover {
-    box-shadow: inset 130px 0 0 0 #5d0b79;
+    box-shadow: inset 8.12rem 0 0 0 #545154;
     color:antiquewhite;
   }
 
@@ -71,20 +76,21 @@ a:hover {
     width:auto; 
     display: flex;  
     margin:3rem 0px 0px 70px ;
-    height: auto;
+    height: 100%;
+    margin-top: 6.8rem;
     
 }
 .text{
-    width: 600px;
+    width: 37.5rem;
     margin-top: 3rem;
 }
 .text h1{
     font-family: 'Taviraj', serif;
-    font-size: 50px;
+    font-size: 3rem;
     color:rgb(119, 4, 4);
 }
 .text p{
-    font-size: 25px;
+    font-size: 1.5rem;
     font-family: 'Ibarra Real Nova', serif;
 }
 .text ul li{
@@ -105,6 +111,7 @@ a:hover {
 
 .text ul li:hover{
     transform: translateY(-5px);
+    cursor: pointer;
 }
 .image{
     margin:40px 0px 0px 70px ;
@@ -120,11 +127,13 @@ a:hover {
     width:auto; 
     display: flex;  
     margin:20px 0px 0px 30px ;
-    height: auto;
+    height: 100%;
+    margin-top: 80px;
 }
 .abouttext{
     text-align: center;
-    width: 500px;
+    width: 700px;
+    margin-top: 55px;
 }
 .abouttext h1, .contacttext h1{
     font-family: 'Taviraj', serif;
@@ -146,7 +155,7 @@ a:hover {
 }
 
 .contacttext{
-    width: 600px;
+    width: 800px;
     text-align: center;
 }
 
@@ -171,6 +180,24 @@ a:hover {
 #Email{
     width: 350px;
     height: 60px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.send {
+    height: 40px;
+    width: 70px;
+    background-color: #5d0b79;
+    color: whitesmoke;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 20px;
+    transition: transform 0.5s;
+    border-radius: 3px;
+}
+.send:hover{
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    transform: translateY(-5px);
 }
 .footer{
     height: 80px;
